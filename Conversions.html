@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Conversions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+
+      body {
+        margin: 0; 
+        background-color: #2b2b2b;
+      }
+
+      /* Style the header */
+      .header {
+        background-image: url(Background.png);
+        color:antiquewhite;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #0020ad;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #001055;
+        color: whitesmoke;
+      }
+
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+      }
+
+      /* Left and right column */
+      .column.side {
+        width: 25%;
+        color: #c5b4b4
+          
+      }
+
+      /* Middle column */
+      .column.middle {
+        width: 50%;
+        color: #c5b4b4;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Aviator Math</h1>
+      <p>To make you glide in math</p>
+    </div>
+    
+    
+    <div class="topnav">
+      <a href="Homepage.html">Home</a>
+      <a href="MathAid.html">Math Aid</a>
+      <a href="Tutoring.html">Tutoring</a>
+      <a style=float:right href="AboutUs.html">About Us</a>
+    </div>
+    
+   
+    
+    
+
+    <div class="row">
+      <div class="column side">
+        
+
+      </div>
+
+      
+      
+      <div class="column middle">
+        <h1>Converting Degrees and Radians </h1>
+        <p>This lesson will talk about how to convert degrees to radians and radical to degrees. </p> 
+
+        <h2> Converstions </h2>
+        <p>In order to convert radians and degrees, you need to follow the below equations</p>
+        <img src="ConversionEquation.png" width="426" height="240" alt="Conversion Equation"/>
+        <br>
+        <h3>Degree ---> Radian</h3>
+        <img src="ConversionEquationDegree.png" width="300" height="75" alt="Degree Conversion Equation"/>
+        <p>You first place the angle/degree where the "x" is and place the degree next to the pi</p>
+        <p>You then simplify the numerator and demoninator if possible and you leave the pi alone </p>
+        <p>Once you do that you have converted the degree to a radian</p>
+        <p>Here are some examples:</p>
+        <img src="DegreetoRadianExamples.png" width="300" height="150" alt="Degree Conversion Examples"/>
+        <br>
+        <h3>Radians ---> Degree</h3>
+        <img src="ConversionEquationRadians.png" width="300" height="75" alt="Radian Conversion Equation"/>
+        <p>You first place the radian you wish to convert where the "x" is. Place the radian linear to the conversion equation so that the fraction line are next to each other</p>
+        <p>Then combine the numbers in the equation, remember that you have to multiply them.</p>
+        <p>Mark out the pi's as there is one on the top and bottom of the equation. You finally divide the remaining number to get the degree </p>
+        <p> Here are some examples:</p>
+        <img src="RadiantoDegreeExample.png" width="300" height="150" alt="Radian Conversion Examples"/>
+        <br>
+        <h4>Still Confused? Watch this explaination video:</h4>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TxGZU8UQwdE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <br>
+
+        <h4>Want some practice? <a style="color:white;" href="ConversionsPractice.html">Click Here!</a></h4>
+
+      </div>
+      
+      <div class="column side">  
+        <h2></h2>
+        <p></p>
+      </div>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>FOIL</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      
+
+      body {
+        margin: 0; 
+        background-color: #2b2b2b;
+      }
+
+      /* Style the header */
+      .header {
+        background-image: url(Background.png);
+        color:antiquewhite;
+        padding: 20px;
+        text-align: center;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #0020ad;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 20px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #001055;
+        color: whitesmoke;
+      }
+
+      /* Create three unequal columns that floats next to each other */
+      .column {
+        float: left;
+        padding: 10px;
+      }
+
+      /* Left and right column */
+      .column.side {
+        width: 25%;
+        color: #c5b4b4
+          
+      }
+
+      /* Middle column */
+      .column.middle {
+        width: 50%;
+        color: #c5b4b4;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 600px) {
+        .column.side, .column.middle {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+
+    <div class="header">
+      <h1>Aviator Math</h1>
+      <p>To make you glide in math</p>
+    </div>
+    
+    
+    <div class="topnav">
+      <a href="Homepage.html">Home</a>
+      <a href="MathAid.html">Math Aid</a>
+      <a href="Tutoring.html">Tutoring</a>
+      <a style=float:right href="AboutUs.html">About Us</a>
+    </div>
+    
+   
+    
+    
+
+    <div class="row">
+      <div class="column side">
+        
+
+      </div>
+
+      
+      
+      <div class="column middle">
+        <h1>FOIL Method</h1>
+        <p>The FOIL Method is commonly used to help combine equations within parenthesis and that are being multiplyed. These are also used a lot within quadratics</p> 
+
+        <h2> The FOIL Method </h2>
+        <img src="FOILMethod.jpeg" width="350" height="350" alt="FOIL Method Sheet"/>
+        <br>
+        <h2>How does the FOIL Method Work?</h2>
+        <p>F: First/The first value of the equation or the front of the first parenthesis</p>
+        <p>O: Outer/The last value within the first parentesis</p>
+        <p>I: Inner/The first value within the second parenthesis</p>
+        <p>L: Last/The last value of the second parenthesis</p>
+        <br>
+        <h2>How to Solve Equations with FOIL Method</h2>
+        <img src="FOILMethod2.png" width="350" height="350" alt="Quadratic Function Graph Example"/>
+        <p></p>
+        <p>The first thing you do is multiply the 2x (first) with 5x (the other first)</p>
+        <p>You then multiply the outer numbers (the 2x and -8)</p>
+        <p>You next multiply the inner numbers (the 3 and 5x)</p>
+        <p>You lastly muliply the last number of the equations (the 3 and -8)</p>
+        <p>Once you multiply each of the parts, you should get F: 10x^2 O: -16x I: 15x L: -24</p>
+        <p>You then put the products into one equation, 10x^2 - 16x + 15x - 24</p>
+        <p>To complete this problem, you will need to combine like terms to create a quadratic formula.</p>
+        <p>the like terms in these equation are the -16x and the 15x as they both contain x to the first power. Combining these like terms gives you -x</p>
+        <p>You lastly add the remainder to the equation, giving you the answer 10x^2 - x - 24</p>
+
+                
+      </div>
+      
+      <div class="column side">  
+        <h2></h2>
+        <p></p>
+      </div>
+    </div>
+    
+  </body>
+</html>
